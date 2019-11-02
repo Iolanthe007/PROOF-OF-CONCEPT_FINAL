@@ -16,7 +16,7 @@ The main goal of this project was to develop two R scripts that could help autom
 
 ### Scripts
 
-#### Extract-Source-Images:
+#### Extract-Source-Images.R:
 
 When first interacting with *The Hieroglyphics Initiative* itself, I started by uploading someone else's project into the program (which had been sent to me in an email in the form of a YAML file). It was useful to see what someone else had been able to do with the program, but I wanted to have a go myself. I wanted to replicate their project, but starting from scratch. I realised that I could not find a way to download the original source image they had used to upload into a new project. In order to rectify this issue, I developed an R script that parses the YAML file, extracts the relevant information, decodes it from the Base64 language in which the image file is saved, and writes it to a PNG file. This can be used for extracting multiple source images, using a For Loop.
 
@@ -28,15 +28,15 @@ As part of my thesis aim for next year is to evaluate the accuracy and usefulnes
 
 ### Data
 
-#### Extract-Source-Files.yml
+#### Extract-Source-Files.yml:
 
 This is a simple yaml file created by starting a project in *The Hieroglyphics Initiative* Workbench and uploading two source files, with different file names. I exported it as a yaml file without adding any annotations or hieroglyphic signs.
 
-#### Correct-Gardiner-Codes.yml
+#### Correct-Gardiner-Codes.yml:
 
 This file was created in *The Hieroglyphics Initiative* Workbench, where I uploaded an image of a simple wall scene (one of the source images in the previous file, in fact), and made a selection of 12 hieroglyphic signs. I then manually identified each hieroglyphic sign, assigning the correct Gardiner Code to each. I then exported the project as a yaml file, ready to pass through the Compare-Gardiner-Codes.R script.
 
-#### Incorrect-Gardiner-Codes.yml
+#### Incorrect-Gardiner-Codes.yml:
 
 This file was created in *The Hieroglyphics Initiative* workbench, where I used the same source image as in Correct-Gardiner-Codes.yml and selected the exact same hieroglyphic signs in the same order and let the program automatically identify the hieroglyphic signs using its machine learning. I then exported the project in the same manner as the previous file so that its contents can be analysed against those of the Correct-Gardiner-Codes.yml file.
 
