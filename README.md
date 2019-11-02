@@ -10,15 +10,29 @@ The Proof of Concept project presented here had two aims: to develop code that w
 
 ## Outline of the Project:
 
-### Extract-Source-Images:
+### Scripts
+
+#### Extract-Source-Images:
 
 When first interacting with *The Hieroglyphics Initiative* itself, I started by uploading someone else's project into the program (which had been sent to me in an email in the form of a YAML file). It was useful to see what someone else had been able to do with the program, but I wanted to have a go myself. I wanted to replicate their project, but starting from scratch. I realised that I could not find a way to download the original source image they had used to upload into a new project. In order to rectify this issue, I developed an R script that parses the YAML file, extracts the relevant information, decodes it from the Base64 language in which the image file is saved, and writes it to a PNG file. This can be used for extracting multiple source images, using a For Loop.
 
-### Compare-Gardiner-Codes:
+#### Compare-Gardiner-Codes.R:
 
 As part of my thesis aim for next year is to evaluate the accuracy and usefulness of *The Hieroglyphics Initiative* as a translation tool, I needed to develop a means of analysing the programs ability to automatically classify hieroglyphs. In order to achieve this, I created a project in which I **manually** classified a selection of hieroglyphs, which I exported as a YAML file. I then created a project in which I let the program **automatically** classify the same selection of hieroglpyhs, which I then also exported as a YAML file. I then developed an R script that extracted the specific Gardiner Code identifiers (where a letter and a number represent a specific hieroglyph, such as M23, or A8), assigned them to vectors, and compared them line by line. They number of matches was then divided by the total number of items, giving the percentage of correctly auto-classified glyphs.
 
+#### Unit-Testing-Code.R (and Unit-Testing-Code_test_file.R)
+
+### Data
+
+### Extract-Source-Files.yml
+
+### Correct-Gardiner-Codes.yml
+
+### Incorrect-Gardiner-Codes.yml
+
 ## Navigating this Repository:
+
+
 
 Start with Code Ocean link.
 
