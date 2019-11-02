@@ -10,6 +10,10 @@ The Proof of Concept project presented here had two aims: to develop code that w
 
 ## Outline of the Project:
 
+The main goal of this project was to develop two R scripts that could help automate two very useful interactions with *The Hieroglyphics Initiative*. One was aimed at being able to effectively share image files using the common file type used to access the program with, and the other intended to actually assess the reliability and accuracy of the program's machine learning capabilities. Both scripts ran successfully and produced useful outputs.
+
+## Navigating this Repository:
+
 ### Scripts
 
 #### Extract-Source-Images:
@@ -24,18 +28,24 @@ As part of my thesis aim for next year is to evaluate the accuracy and usefulnes
 
 ### Data
 
-### Extract-Source-Files.yml
+#### Extract-Source-Files.yml
 
-### Correct-Gardiner-Codes.yml
+This is a simple yaml file created by starting a project in *The Hieroglyphics Initiative* Workbench and uploading two source files, with different file names. I exported it as a yaml file without adding any annotations or hieroglyphic signs.
 
-### Incorrect-Gardiner-Codes.yml
+#### Correct-Gardiner-Codes.yml
 
-## Navigating this Repository:
+This file was created in *The Hieroglyphics Initiative* Workbench, where I uploaded an image of a simple wall scene (one of the source images in the previous file, in fact), and made a selection of 12 hieroglyphic signs. I then manually identified each hieroglyphic sign, assigning the correct Gardiner Code to each. I then exported the project as a yaml file, ready to pass through the Compare-Gardiner-Codes.R script.
 
+#### Incorrect-Gardiner-Codes.yml
 
+This file was created in *The Hieroglyphics Initiative* workbench, where I used the same source image as in Correct-Gardiner-Codes.yml and selected the exact same hieroglyphic signs in the same order and let the program automatically identify the hieroglyphic signs using its machine learning. I then exported the project in the same manner as the previous file so that its contents can be analysed against those of the Correct-Gardiner-Codes.yml file.
 
-Start with Code Ocean link.
+## Interacting with this Proof of Concept Project
+
+In order to test my codes and see how they work and what output they produce, follow the following Code Ocean link:
 
 https://codeocean.com/capsule/0967768/tree
 
+*Please note that only Brian has access to this Code Ocean capsule at this point, as the capsule is currently being verified for publication.*
 
+Once the link is opened, follow the acceptance tests within the Acceptance-Tests.xlsx file, which will guide you through the step by step process of interacting with my Code Ocean capsule, and in turn, my R scripts.
