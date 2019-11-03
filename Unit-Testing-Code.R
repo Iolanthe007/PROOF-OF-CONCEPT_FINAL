@@ -1,3 +1,4 @@
+library(yaml)
 library(testthat)
 
 test_filename <- "incorrect-gardiner-codes.yml"
