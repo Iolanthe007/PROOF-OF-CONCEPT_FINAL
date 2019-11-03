@@ -42,6 +42,10 @@ This file was created in *The Hieroglyphics Initiative* Workbench, where I uploa
 
 This file was created in *The Hieroglyphics Initiative* workbench, where I used the same source image as in *Correct-Gardiner-Codes.yml* and selected the exact same hieroglyphic signs in the same order and let the program automatically identify the hieroglyphic signs using its machine learning. I then exported the project in the same manner as the previous file so that its contents can be analysed against those of the *Correct-Gardiner-Codes.yml* file.
 
+### Additional files:
+
+I have also included the *.gitignore*, *.RHistory*, and *.RData* files that accompany the R Project (*PROOF-OF-CONCEPT_FINAL.RProj*), as well as the licence file for this project/repository, and a .zip file of the documents I completed in the early stages of the development of this *Proof of Concept* project (ie. *Scoping*, *Elaboration*, and *Design*).
+
 ## Interacting with this Proof of Concept Project
 
 In order to test my codes and see how they work and what output they produce, open the following *Code Ocean* link:
