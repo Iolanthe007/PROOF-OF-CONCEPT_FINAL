@@ -49,3 +49,5 @@ https://codeocean.com/capsule/0967768/tree
 *Please note that only Brian has access to this Code Ocean capsule at this point, as the capsule is currently being verified for publication.*
 
 Once the link is opened, follow the acceptance tests within the Acceptance-Tests.xlsx file, which will guide you through the step by step process of interacting with my Code Ocean capsule, and in turn, my R scripts.
+
+An alternative way of accessing my R Project is to download the .zip file titled *RStudio* and extract the files, then open the R Project titled *PROOF-OF-CONCEPT_FINAL.Rproj* and run the scripts from within the *scripts* directory (accessible via the Working Directory). It is preferrable to run them in the following order: *Extract-Source-Images.R*, *Compare-Gardiner-Codes.R*, *Unit-Testing-Code.R*, *Unit-Testing-Code_test_file.R*.
