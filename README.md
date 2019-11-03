@@ -44,14 +44,14 @@ This file was created in *The Hieroglyphics Initiative* workbench, where I used 
 
 ## Interacting with this Proof of Concept Project
 
-In order to test my codes and see how they work and what output they produce, open the following Code Ocean link:
+In order to test my codes and see how they work and what output they produce, open the following *Code Ocean* link:
 
 https://codeocean.com/capsule/0967768/tree
 
 *Please note that only Brian has access to this Code Ocean capsule at this point, as the capsule is currently being verified for publication.*
 
-Once the link is opened, follow the acceptance tests within the Acceptance-Tests.xlsx file, which will guide you through the step by step process of interacting with my Code Ocean capsule, and in turn, my R scripts.
+Once the link is opened, follow the acceptance tests within the *Acceptance-Tests.xlsx* file, which will guide you through the step by step process of interacting with my *Code Ocean* capsule, and in turn, my R scripts.
 
-An alternative way of accessing my R Project is to download the .zip file titled *RStudio* and extract the files. Once you open the R Project titled *PROOF-OF-CONCEPT_FINAL.Rproj*, ensure the following packages are successfully downloaded: *yaml*, *base64enc*, and *testthat* (there is code within the script that should complete this as part of the execute/run). You can then run the scripts from within the *scripts* directory (accessible via the Working Directory). It is preferrable to run them in the following order: *Extract-Source-Images.R*, *Compare-Gardiner-Codes.R*, *Unit-Testing-Code.R*, *Unit-Testing-Code_test_file.R*.
+An alternative way of accessing my R Project is to download the .zip file titled *RStudio* and extract the files. Once you open the R Project titled *PROOF-OF-CONCEPT_FINAL.Rproj*, ensure the following packages are successfully downloaded: *yaml*, *base64enc*, and *testthat* (there is code within the script that should complete this as part of the execute/run). You can then run the scripts from within the *scripts* directory (accessible via the Working Directory). It is preferrable to run them in the following order: *Extract-Source-Images.R*, *Compare-Gardiner-Codes.R*, *Unit-Testing-Code.R*, *Unit-Testing-Code_test_file.R*. There are also instructions on these steps within the *Acceptance-Tests.xlsx* file.
 
 **Version Control and History**: For the full version history of this project, please refer to the *Proof-of-Concept* repository within my profile.
