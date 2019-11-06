@@ -50,9 +50,7 @@ I have also included the *.gitignore*, *.RHistory*, and *.RData* files that acco
 
 In order to test my codes and see how they work and what output they produce, open the following *Code Ocean* link:
 
-https://codeocean.com/capsule/0967768/tree
-
-*Please note that only Brian has access to this Code Ocean capsule at this point, as the capsule is currently being verified for publication.*
+https://codeocean.com/capsule/1444854/tree/v1
 
 Once the link is opened, follow the acceptance tests within the *Acceptance-Tests.xlsx* file, which will guide you through the step by step process of interacting with my *Code Ocean* capsule, and in turn, my R scripts.
 
